@@ -29,3 +29,29 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 console.log(typeof heros);
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap(Non-Primitive)
+
+let myyoutubename = "raj"
+let anotherName=myyoutubename
+anotherName="chai"
+
+console.log(anotherName);
+console.log(myyoutubename);
+
+let user1={
+    email:"qwhgdw",
+    name:"whdg"
+}
+
+let user2=user1;
+
+user2.email="new@mail"
+console.log(user1);
+console.log(user2);
